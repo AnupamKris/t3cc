@@ -14,8 +14,6 @@ To launch the application in development mode, use the following command:
 pnpm tauri dev
 ```
 
-This command will start the development server and open the application window. Any changes you make to your code will be automatically reflected in the application.
-
 ### Building for Production
 
 To build the application for production, use the following command:
@@ -24,8 +22,6 @@ To build the application for production, use the following command:
 pnpm tauri build
 ```
 
-This command will compile your application and create distributable packages for your target platforms. You can find the built packages in the `src-tauri/target/release/bundle` directory.
-
 ## Modifying Application Shortcuts
 
-Application-specific logic and potentially shortcut definitions are often managed within the Rust backend. To change or define application shortcuts, you will need to modify the `src-tauri/src/lib.rs` file.
+To change opening shortcut, you can modify the `src-tauri/src/lib.rs` file.
